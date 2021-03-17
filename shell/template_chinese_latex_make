@@ -1,0 +1,6 @@
+pdf:
+        xelatex
+
+clean:
+        del *.aux
+        del *.log

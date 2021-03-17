@@ -1,0 +1,3 @@
+@echo off
+
+setx path "C:\texlive\2020\bin\win32;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code;C:\Users\admin\Workspace\cmder;C:\Program Files\Emacs\x86_64\bin\;C:\Users\admin\Downloads\software\ParaView-5.9.0-MPI-Windows-Python3.8-msvc2017-64bit\ParaView-5.9.0-MPI-Windows-Python3.8-msvc2017-64bit\bin\;C:\Users\admin\AppData\Local\SumatraPDF\;C:\Users\admin\usr\shortcut;C:\Users\admin\.babun;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE;C:\Program Files\IrfanView;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\admin\usr\shell;C:\Program Files (x86)\Google\Chrome\Application"
