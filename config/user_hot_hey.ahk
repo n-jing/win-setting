@@ -5,7 +5,7 @@ return
 
 ; remap ctrl+alt+t to open cmder
 !^t::
-Run C:\Users\admin\Workspace\cmder\Cmder.exe
+Run D:\software\cmder\Cmder.exe
 return
 
 ; RAlt::RWin
@@ -27,7 +27,7 @@ return
 
 ; remap ctrl+alt+e to run everything
 !^e::
-Run C:\Program Files\Everything\Everything.exe
+Run D:\software\Everything\Everything.exe
 return
 
 
