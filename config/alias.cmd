@@ -8,3 +8,6 @@ DOSKEY add_python33=set PATH=%PATH%;"C:\Python33\"
 :: Commands
 
 DOSKEY lld=ls -alt
+DOSKEY gt=git status
+DOSKEY cdu=cd /d %userprofile%
+DOSKEY cdt=cd /d E:\tmp
