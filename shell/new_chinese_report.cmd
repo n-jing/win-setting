@@ -17,7 +17,7 @@ if a%~x1 neq a.tex (
 
 md pic fig
 
-set drty=%USERPROFILE%\usr\shell
+set drty=%~dp0
 type %drty%\template_chinese_latex > %f%
 
 

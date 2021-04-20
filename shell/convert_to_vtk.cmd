@@ -1,3 +1,3 @@
 @echo off
 
-start pvbatch %USERPROFILE%\usr\shell\convert_to_vtk.py %~dpnx1
+start pvbatch %~dp0convert_to_vtk.py %~dpnx1

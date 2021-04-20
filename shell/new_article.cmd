@@ -16,7 +16,7 @@ if a%~x1 neq a.tex (
 
 md pic fig
 
-set drty=%USERPROFILE%\usr\shell
+set drty=%~dp0
 copy %drty%\aaatemplate-sigconf.tex %~dp1\%f%
 
 
@@ -27,7 +27,7 @@ set file_name=%f:~0,-4%
 
 echo #only nmake.exe are supported > Makefile
 echo pdf: >> Makefile
-echo %TAB%xelatex %f% >> Makefile
+echo %TAB%latexmk -xelatex %f% >> Makefile
 echo. >> Makefile
 echo clean: >> Makefile
 echo %TAB%del %file_name%.aux >> Makefile

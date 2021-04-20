@@ -16,7 +16,7 @@ if a%~x1 neq a.tex (
 
 md pic fig
 
-set drty=%USERPROFILE%\usr\shell
+set drty=%~dp0
 copy %drty%\beamerthemesingapore.sty %~dp1
 type %drty%\template_beamer > %f%
 

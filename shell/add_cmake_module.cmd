@@ -17,11 +17,8 @@ if %errorlevel% equ 0 (
    exit /b
 )
 
-exit /b
-
-
 set f=Find%1.cmake
 touch %f%
 
-copy %userprofile%\usr\shell\template-hello-config.cmake %f%
+copy %~dp0template-hello-config.cmake %f%
 powershell -Command "(gc %f%) -replace 'HELLO', '%1' | Out-File -encoding ASCII %f%"

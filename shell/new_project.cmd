@@ -3,7 +3,7 @@
 md build doc
 touch README.md
 
-set drty=%USERPROFILE%\usr\shell
+set drty=%~dp0
 
 echo %drty%\template_main_cpp
 cp %drty%\template_main_cpp main.cpp
