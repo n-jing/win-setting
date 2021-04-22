@@ -51,5 +51,5 @@ return
 
 ; open local notes when //n enter
 :://n::
-Run, http://localhost:4001/Notes/
+Run, http://localhost:4001/Notes/archives/
 return
