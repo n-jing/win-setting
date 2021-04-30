@@ -22,3 +22,7 @@ DOSKEY clear=cls
 
 DOSKEY vs=devenv $*
 DOSKEY cr=cmake --build . --config Release
+
+
+DOSKEY reboot=shutdown /r /t 0
+DOSKEY cmn=cmake -G "Ninja Multi-Config" ..

@@ -7,11 +7,11 @@ call :date_time_func
 for %%i in (%* ) do  ( 
     set f=%%i
     set f_e=%f:~-1%
-setlocal EnableDelayedExpansion
-    set f_h=!f:~0,-1!
+rem setlocal EnableDelayedExpansion
+    set f_h=%f:~0,-1%
 
     echo move %%i to %TRASH_DIR%\%date_time%_%%i
-    if "%f_e%"=="\" ( move /Y !f:~0,-1! %TRASH_DIR%\%date_time%_!f:~0,-1! ) else ( move /Y %%i %TRASH_DIR%\%date_time%_%%i  )  
+    if "%f_e%"=="\" ( move /Y %f:~0,-1% %TRASH_DIR%\%date_time%_%f:~0,-1% ) else ( move /Y %%i %TRASH_DIR%\%date_time%_%%i  )  
 )
 
 goto :eof
