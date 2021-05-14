@@ -1,10 +1,5 @@
 @echo off
 
-:: Add to path by command
-
-DOSKEY add_python26=set PATH=%PATH%;"C:\Python26\"
-DOSKEY add_python33=set PATH=%PATH%;"C:\Python33\"
-
 :: Commands
 
 rem git shortcut
@@ -22,6 +17,8 @@ DOSKEY clear=cls
 
 DOSKEY vs=devenv $*
 DOSKEY cr=cmake --build . --config Release
+DOSKEY ckr=cmake --build . --config Release
+DOSKEY ckd=cmake --build . --config Debug
 
 
 DOSKEY reboot=shutdown /r /t 0
