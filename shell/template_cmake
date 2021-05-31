@@ -4,7 +4,7 @@ PROJECT(demo)
 set(CMAKE_CONFIGURATION_TYPES "Release;Debug" CACHE STRING "" FORCE)
 if (MSVC)
 	message("********************compiler msvc********************")
-	list(APPEND CMAKE_CXX_FLAGS "/Wall /std:c++14 /EHsc")
+	list(APPEND CMAKE_CXX_FLAGS "/Wall /std:c++14 /EHsc /openmp")
 	list(APPEND CMAKE_CXX_FLAGS_DEBUG "/Od")
 	list(APPEND CMAKE_CXX_FLAGS_RELEASE "/O2 /DNDEBUG")
 	# macro NDEBUG will remove all assert
